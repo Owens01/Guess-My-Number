@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+
+
+header {
+    position: relative;
+    height: 35vh;
+    border-bottom: 7px solid #eee;
+    margin-top: 1rem;
+}
+
+header .title {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-block-start: 2rem;
+}
+
+header .number {
+    font-size: 7rem;
+    color: #333;
+    text-align: center;
+    background-color: #eee;
+    padding: 3rem 0;
+    width: 15vw;
+    max-width: 175px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    margin-block-start: 1rem;
+}
+
+.first .between {
+    font-size: 1.5rem;
+}
+
+main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+
+.btn {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.left .guess {
+    appearance: none;
+    background-color: transparent;
+    height: 10vh;
+    max-width: 150px;
+    border: 2px solid #eee;
+    color: #eee;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.left .check {
+    max-width: 100px;
+}
+
+.right {
+    font-size: 2rem;
+}
+
+.right .message {
+    margin-block-end: 5rem;
+}
+
+.right .label-score {
+    margin-block-end: 1.5rem;
+}
